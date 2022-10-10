@@ -1,0 +1,23 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "Javascript algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlushyZeus35/javascript-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlushyZeus35/javascript-algorithms/issues"
+  },
+  "homepage": "https://github.com/PlushyZeus35/javascript-algorithms#readme",
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
