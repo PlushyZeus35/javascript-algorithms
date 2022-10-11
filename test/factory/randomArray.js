@@ -1,31 +1,33 @@
+const CONSTANTS = require('../../src/constants');
+
 function shortRandomArray(){
     const array = [];
-    for(let i=0; i<25; i++){
-        array.push(getRndInteger(-999,999))
+    for(let i=0; i<CONSTANTS.ARRAYLENGTH.SHORT; i++){
+        array.push(getRndInteger(CONSTANTS.LIMITS.MINIMUM, CONSTANTS.LIMITS.MAXIMUM))
     }
     return array;
 }
 
 function mediumRandomArray(){
     const array = [];
-    for(let i=0; i<50; i++){
-        array.push(getRndInteger(-999,999))
+    for(let i=0; i<CONSTANTS.ARRAYLENGTH.MEDIUM; i++){
+        array.push(getRndInteger(CONSTANTS.LIMITS.MINIMUM, CONSTANTS.LIMITS.MAXIMUM))
     }
     return array;
 }
 
 function bigRandomArray(){
     const array = [];
-    for(let i=0; i<100; i++){
-        array.push(getRndInteger(-999,999))
+    for(let i=0; i<CONSTANTS.ARRAYLENGTH.BIG; i++){
+        array.push(getRndInteger(CONSTANTS.LIMITS.MINIMUM, CONSTANTS.LIMITS.MAXIMUM))
     }
     return array;
 }
 
 function hugeRandomArray(){
     const array = [];
-    for(let i=0; i<1000; i++){
-        array.push(getRndInteger(-999,999))
+    for(let i=0; i<CONSTANTS.ARRAYLENGTH.HUGE; i++){
+        array.push(getRndInteger(CONSTANTS.LIMITS.MINIMUM, CONSTANTS.LIMITS.MAXIMUM))
     }
     return array;
 }
