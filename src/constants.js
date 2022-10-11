@@ -7,6 +7,7 @@ module.exports = {
     },
     LIMITS: {
         MAXIMUM: 99999,
-        MINIMUM: -99999
+        MINIMUM: -99999,
+        MEDIA: 10
     }
 }
