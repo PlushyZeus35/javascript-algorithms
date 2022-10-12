@@ -1,7 +1,7 @@
 /*
- * Tests for selection sort algorithm
+ * Tests for bubble sort algorithm
  * Author: https://github.com/PlushyZeus35
- * Info: https://www.geeksforgeeks.org/selection-sort/
+ * Info: https://www.geeksforgeeks.org/bubble-sort/
 */
 
 const {bubbleSort} = require('../src/sorting-algorithms/bubble_sort')
